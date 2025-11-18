@@ -4,7 +4,7 @@
 
 GTHC_HK: GNSS Tropospheric delay Height Correction (Hong Kong version) . 
 
-This repository offers advanced GNSS tropospheric delay correction models, specifically optimized for the Hong Kong region. Developed through long-term (> 10-year) analysis of Hong Kong CORS data, these models deliver enhanced accuracy for mitigating tropospheric delays in GNSS applications. Currently, it supports versions in four programming languages: C, Fortran, MATLAB, and Python.
+This repository offers advanced GNSS tropospheric delay correction models, specifically optimized for the Hong Kong region. Developed through long-term (> 10-year) analysis of Hong Kong CORS data, these models deliver enhanced accuracy for mitigating tropospheric delays in GNSS applications, especially for the large height difference areas. Currently, it supports versions in four programming languages: C, Fortran, MATLAB, and Python.
 
 ## News and Updates
 
