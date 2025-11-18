@@ -24,7 +24,6 @@ Please select the appropriate implementation file based on your programming envi
 | Fortran | `GTHC_HK.f90` | |
 
 **Consistency Assurance**: While all implementations maintain the same core algorithm, any discrepancies between versions should be resolved by referring to the MATLAB implementation as the authoritative reference standard.
-**Consistency Assurance**: While all implementations maintain the same core algorithm, any discrepancies between versions should be resolved by referring to the MATLAB implementation as the authoritative reference standard.
 
 ### Usage Recommendations
 
