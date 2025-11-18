@@ -12,11 +12,25 @@ This repository offers advanced GNSS tropospheric delay correction models, speci
 
 ## Installation
 
-Open MFmodel.m in MATLAB and run:
+If the tropospheric delay correction is a separate function in your code, simply replace it with the function file in the src folder. If it is not a separate function, you can replace the original function model with the function parameters and function calculation parts.
 
-```matlab
-Fmodel.m
-```
+Please select the appropriate implementation file based on your programming environment:
+
+| Language | File Name | Primary Reference |
+|----------|-----------|-------------------|
+| MATLAB | `GTHC_HK.m` | ✅ **Reference Standard** |
+| Python | `GTHC_HK.py` | |
+| C | `GTHC_HK.c` | |
+| Fortran | `GTHC_HK.f90` | |
+
+**Consistency Assurance**: While all implementations maintain the same core algorithm, any discrepancies between versions should be resolved by referring to the MATLAB implementation as the authoritative reference standard.
+**Consistency Assurance**: While all implementations maintain the same core algorithm, any discrepancies between versions should be resolved by referring to the MATLAB implementation as the authoritative reference standard.
+
+### Usage Recommendations
+
+- **New Projects**: Choose the version that best integrates with your existing codebase
+- **Cross-Validation**: When migrating between languages, verify results against the MATLAB reference
+- **Algorithm Fidelity**: The MATLAB version represents the canonical implementation with full validation
 
 The 18 Hong Kong CORS stations involved in the modeling are: stationlist = {'HKCL', 'HKFN', 'HKKS', 'HKKT', 'HKLM', 'HKLT', 'HKMW', 'HKNP', 'HKOH', 'HKPC', 'HKQT', 'HKSC', 'HKSL', 'HKSS', 'HKST', 'HKTK', 'HKWS', 'T430'}
 
