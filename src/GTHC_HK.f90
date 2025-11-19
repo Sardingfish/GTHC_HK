@@ -115,7 +115,7 @@ contains
         ! Calculate height difference
         hgt_diff = Hgt_user - Hgt_base
         
-        ! ZHD scale height (constant)
+        ! ZHD height decay coefficient (constant)
         beta_ZHD = 8431.2d0
         
         ! Determine seasonal correction parameters

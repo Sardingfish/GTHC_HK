@@ -90,7 +90,7 @@ A_ZWD = [-16.7865051683731, 36218.6610049341, -130.895834349628, ...
 % Calculate height difference between stations
 hgt_diff = Hgt_user - Hgt_base;
 
-% ZHD scale height (constant)
+% ZHD height decay coefficient (constant)
 beta_ZHD = 8431.2;
 
 % Determine seasonal correction parameters

@@ -92,7 +92,7 @@ int GTHC_HK(const double BaseTrop[3], const double BaseCoor[3],
     // Calculate height difference
     double hgt_diff = Hgt_user - Hgt_base;
     
-    // ZHD scale height (constant)
+    // ZHD height decay coefficient (constant)
     double beta_ZHD = 8431.2;
     
     // Determine seasonal correction parameters

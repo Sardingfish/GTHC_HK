@@ -88,7 +88,7 @@ def GTHC_HK(BaseTrop, BaseCoor, UserCoor, DOY, YorN):
     # Calculate height difference between stations
     hgt_diff = Hgt_user - Hgt_base
     
-    # ZHD scale height (constant)
+    # ZHD height decay coefficient (constant)
     beta_ZHD = 8431.2
     
     # Determine seasonal correction parameters
